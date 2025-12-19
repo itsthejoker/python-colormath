@@ -1,7 +1,6 @@
 Python Color Math Module (colormath)
 ====================================
 
-**Note: This module is no longer actively maintained.**
 
 .. start-badges
 
@@ -21,7 +20,7 @@ Requirements
 
 * numpy
 * NetworkX 2.0+
-* Python 2.7 or Python 3.5+
+* Python 3.11+
 
 Installation
 ------------

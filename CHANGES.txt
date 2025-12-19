@@ -1,3 +1,7 @@
-The changelog has been moved to our documentation site:
+# 3.1.0
+
+- Changed maintainer info from Gregory Taylor to Joe Kaufeld
+- Removed support for Python 2 and updated requirements to Python 3.11+
+
 
 http://python-colormath.readthedocs.org/en/latest/release_notes.html
