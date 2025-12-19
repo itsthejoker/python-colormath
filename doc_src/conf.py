@@ -49,8 +49,8 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = u"python-colormath"
-copyright = u"2014, Greg Taylor"
+project = "python-colormath"
+copyright = "2014, Greg Taylor"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -203,8 +203,8 @@ latex_documents = [
     (
         "index",
         "python-colormath.tex",
-        u"python-colormath Documentation",
-        u"Greg Taylor",
+        "python-colormath Documentation",
+        "Greg Taylor",
         "manual",
     ),
 ]
@@ -238,8 +238,8 @@ man_pages = [
     (
         "index",
         "python-colormath",
-        u"python-colormath Documentation",
-        [u"Greg Taylor"],
+        "python-colormath Documentation",
+        ["Greg Taylor"],
         1,
     )
 ]
@@ -257,8 +257,8 @@ texinfo_documents = [
     (
         "index",
         "python-colormath",
-        u"python-colormath Documentation",
-        u"Greg Taylor",
+        "python-colormath Documentation",
+        "Greg Taylor",
         "python-colormath",
         "One line description of project.",
         "Miscellaneous",

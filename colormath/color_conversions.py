@@ -127,7 +127,8 @@ class GraphConversionManager(ConversionManager):
             return self._find_shortest_path(start_type, target_type)
         except (networkx.NetworkXNoPath, networkx.NodeNotFound):
             raise UndefinedConversionError(
-                start_type, target_type,
+                start_type,
+                target_type,
             )
 
     def _find_shortest_path(self, start_type, target_type):
@@ -154,7 +155,8 @@ class DummyConversionManager(ConversionManager):
 
     def get_conversion_path(self, start_type, target_type):
         raise UndefinedConversionError(
-            start_type, target_type,
+            start_type,
+            target_type,
         )
 
 
@@ -956,7 +958,7 @@ def convert_color(
     through_rgb_type=sRGBColor,
     target_illuminant=None,
     *args,
-    **kwargs
+    **kwargs,
 ):
     """
     Converts the color to the designated color space.
@@ -1035,7 +1037,7 @@ def convert_color(
                 target_rgb=target_rgb,
                 target_illuminant=target_illuminant,
                 *args,
-                **kwargs
+                **kwargs,
             )
 
         logger.debug(" |-< out %s", new_color)
