@@ -1,6 +1,7 @@
 Python Color Math Module (colormath)
 ====================================
 
+This package was originally maintained by `Gregory Taylor`_, and the documentation currently points at the old version of the library. I will update this to GitHub Pages as I have time. Many thanks to Gregory for his years of hard work!
 
 .. start-badges
 
@@ -46,14 +47,16 @@ this directory.
 Support
 -------
 
-Head over to https://github.com/gtaylor/python-colormath
+Head over to https://github.com/itsthejoker/python-colormath
 and submit an issue if you have any problems or questions.
 
 Legal Mumbo Jumbo
 -----------------
 
 Copyright (C) 2008-2023 `Gregory Taylor`_
+Copyright (C) 2025+ by `Joe Kaufeld`_
 
 This software is licensed under the BSD License.
 
+.. _Joe Kaufeld: https://itsthejoker.github.io
 .. _Gregory Taylor: http://gc-taylor.com
